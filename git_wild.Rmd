@@ -46,7 +46,7 @@ ggplot(data = diamonds, aes(x = carat, y = price)) +
 
 ```{r break-it-2}
 # graphy mc graph
-ggplot(data = diamonds, aes(x = price, y = carat)) + geom_point()
+ggplot(data = diamonds, aes(x = price, y = carat)) + geom_point(color = "purple")
 ```
 
 ## END Discussion 3
