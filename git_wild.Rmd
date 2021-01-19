@@ -45,6 +45,9 @@ ggplot(data = diamonds, aes(x = carat, y = price)) +
 ```
 
 ```{r break-it-2}
+ggplot(data = diamonds, aes(x = carat, y = depth)) +
+  geom_point(color = "purple") +
+  theme_dark()
 
 ```
 
