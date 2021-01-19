@@ -18,7 +18,7 @@ library(tidyverse)
 ggplot(data = diamonds, aes(x = carat, y = price)) +
   geom_point() +
   theme_void() +
-  labs(title = "YOURNAME was here")
+  labs(title = "Julianna was here")
 ```
 
 ```{r partner_2a}
