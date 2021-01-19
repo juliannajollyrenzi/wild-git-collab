@@ -35,8 +35,8 @@ ggplot(data = diamonds, aes(x = color, y = carat)) +
 ## PART B: Make problems
 
 ```{r break-it-1}
-ggplot(data = diamonds, aes(x = depth, y = carat)) +
-  geom_point() +
+ggplot(data = diamonds, aes(x = carat, y = price)) +
+  geom_point(color = "green") +
   theme_void()
 ```
 
